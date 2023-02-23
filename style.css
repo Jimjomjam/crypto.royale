@@ -1,5 +1,6 @@
 body {
     background-color: #240c8c;
+    overflow: hidden;
 }
 
 .head {
@@ -9,20 +10,21 @@ body {
 .headtext1 {
     color: #68e3db; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: text 3s 1;
+    animation: text 3.5s 1;
+    animation-iteration-count: infinite;
 }
 
 @keyframes text {
-    0% {
+    12% {
         color: #68e3db;
         margin-bottom: -40px;
     }
-    30% {
+    50% {
         color: #eb52e4;
         letter-spacing: 25px;
         margin-bottom: -40px;
     }
-    85% {
+    80% {
         color:#e4f306;
         letter-spacing: 8px;
         margin-bottom: -40px;

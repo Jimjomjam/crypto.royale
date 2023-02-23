@@ -1,0 +1,30 @@
+body {
+    background-color: #240c8c;
+}
+
+.head {
+    text-align: center;
+}
+
+.headtext1 {
+    color: #68e3db; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0% {
+        color: #68e3db;
+        margin-bottom: -40px;
+    }
+    30% {
+        color: #eb52e4;
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85% {
+        color:#e4f306;
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}

@@ -1,3 +1,3 @@
 > entry https://jimjomjam.github.io/crypto.royale/
-<br>
+<hr>
 ***site version: 0.02***

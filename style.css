@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background-color: #240c8c;
     overflow: hidden;
@@ -34,45 +33,8 @@ body {
         letter-spacing: 15px;
         margin-bottom: -40px;
     }
-    70% {
+    90% {
         color: white;
         margin-bottom: -40px;
-    }
-    80% {
-        color: #68e3db;
-        margin-bottom: -40px;
-    }
-=======
-body {
-    background-color: #240c8c;
-    overflow: hidden;
-}
-
-.head {
-    text-align: center;
-}
-
-.headtext1 {
-    color: #68e3db; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    animation: text 3.5s 1;
-    animation-iteration-count: infinite;
-}
-
-@keyframes text {
-    12% {
-        color: #68e3db;
-        margin-bottom: -40px;
-    }
-    50% {
-        color: #eb52e4;
-        letter-spacing: 25px;
-        margin-bottom: -40px;
-    }
-    80% {
-        color:#e4f306;
-        letter-spacing: 8px;
-        margin-bottom: -40px;
-    }
->>>>>>> 43729dc51f3be798d8fbddb221d87a1e041ba68e
+    }    
 }

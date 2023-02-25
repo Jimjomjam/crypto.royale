@@ -4,8 +4,10 @@ body {
 }
 
 .forehead {
-    padding: 20px 30px;
+    padding: 10px;
     background-color: #19095d;
+    border-style:outset;
+    border-color:#4b399b;
 }
 
 .head {
@@ -23,22 +25,18 @@ body {
         color: #68e3db;
         margin-bottom: -40px;
     }
-    50% {
+    40% {
         color: #eb52e4;
-        letter-spacing: 28px;
+        letter-spacing: 12px;
         margin-bottom: -40px;
     }
     60% {
         color:#e4f306;
-        letter-spacing: 15px;
+        letter-spacing: 20px;
         margin-bottom: -40px;
     }
-    90% {
+    80% {
         color: white;
         margin-bottom: -40px;
     }    
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 121552f6fca58a17902d33b2cc6152469be63019

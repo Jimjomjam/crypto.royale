@@ -4,7 +4,9 @@ body {
 }
 
 .forehead {
-    padding: 10px;
+    padding: 11px;
+    width:1891px;
+    position: relative; right:7px; top: -8px;
     background-color: #19095d;
     border-style:outset;
     border-color:#4b399b;
@@ -20,6 +22,21 @@ body {
     animation: text 3.5s 1;
     animation-iteration-count: infinite;
 }
+
+.navigation {
+    position: absolute;
+}
+
+.dd1 {
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-family:monospace;
+    font-size:20px;
+}
+
+
+/* ANIMATION FOR HEADTEXT1 **/
 @keyframes text {
     20% {
         color: #68e3db;
